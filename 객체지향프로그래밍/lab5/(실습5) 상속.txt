@@ -1,0 +1,26 @@
+
+========
+(실습5) 준비
+========
+
+ 실습파일(lab5.zip) 안에 있는 프로젝트 폴더(lab5_project)를 이클립스로 임포트한다.
+    <File> -> <Import> -> <General> -> <Existing Projects into Workspace> -> <Next>버튼클릭
+      -> <Select root directory>선택 -> <Browse>클릭하여 프로젝트폴더(lab5_project) 선택 -> <Finish>클릭
+
+
+
+=============================================
+(실습5-1~3)  GirlTest1.java, GirlTest2.java, GirlTest3.java 프로그램 완성
+=============================================
+
+ 실습지문파일(GirlTest1.jpg, GirlTest2.jpg, GirlTest3.jpg)에 있는 3개 문항의 요구사항들을 각각의 해당 
+ 소스파일(GirlTest1.java, GirlTest2.java, GirlTest3.java)에 구현함.
+
+
+
+==========================
+(실습5-4)  PhoneTest.java 프로그램 완성
+==========================
+
+ 실습지문파일(PhoneTest.jpg)의 설명에 따라 소스파일(PhoneTest.java)에 구현함.
+
