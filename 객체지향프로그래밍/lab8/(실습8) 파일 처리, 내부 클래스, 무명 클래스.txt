@@ -1,0 +1,69 @@
+
+========
+(실습8) 준비
+========
+
+ 실습파일(lab8.zip) 안에 있는 프로젝트 폴더(lab8)를 이클립스로 임포트한다.
+    <File> -> <Import> -> <General> -> <Existing Projects into Workspace> -> <Next>버튼클릭
+      -> <Select root directory>선택 -> <Browse>클릭하여 프로젝트폴더(lab8) 선택 -> <Finish>클릭
+
+
+
+==============================================
+(실습8-1)  파일 안에 있는 단어 찾기 (FindWordInFile.java 프로그램 완성)
+==============================================
+
+  <find> 패키지에 있는 FindWordInFile.java 프로그램 안의  2개 메소드(searchWord(),
+           printLines())의 내용을 완성하면, 아래 시나리오와 같이 대상 파일 안에 있는 
+           각 라인에 대하여 검색 단어가 있으면 해당 라인 번호와 그 내용을 출력 하도록 한다.
+ 
+            (*) Linux나 MacOS의 경우, 아래 입력("src\\find\\FindWordInFile.java")
+                대신 "./src/find/FindWordInFile.java"을 입력할 것
+
+    (테스트 시나리오)  실행시 다음 순서로 진행되도록 구현할 것
+
+      전체 경로명이 아닌 파일 이름만 입력하는 경우, 파일은 프로젝트 폴더에 있어야 합니다.
+      대상 파일명 입력>> src\\find\\FindWordInFile.java
+      검색할 단어나 문장>> public
+      5:public class FindWordInFile {
+      9:	public FindWordInFile() { }
+      45:	public void run() {
+      65:	public static void main(String[] args) {
+      검색할 단어나 문장>> FindWordInFile
+      5:public class FindWordInFile {
+      9:	public FindWordInFile() { }
+      66:		FindWordInFile ws = new FindWordInFile();
+      검색할 단어나 문장>> 
+
+
+
+========================
+(실습8-2)  HotelTest.java 프로그램 완성
+========================
+
+ 실습지문파일(HotelTest.jpg)에 있는 요구사항들을 충족하도록
+ <inner_anno> 패키지의 테스트 파일(HotelTest.java)에 있는 4개 메소드를 구현함.
+
+ (*) 지문에 있는 main()함수 내용이 일부 수정되어 있으며 수정 버전을 그대로 사용할 것.
+
+    (테스트 프로그램 실행결과)  지문과 달리 다음 내용이 출력되어야 함
+
+        1번 방을 철수가 예약했습니다.
+        5번 방을 호돌이가 예약했습니다.
+        7번 방을 길동이가 예약했습니다.
+        12번 방을 영희가 예약했습니다.
+
+
+
+=========================
+(실습8-3)  FlyableTest.java 프로그램 완성
+=========================
+
+ 실습지문파일(FlyableTest.jpg)에 있는 요구사항들을 충족하도록
+ <inner_anno> 패키지의 테스트 파일(FlyableTest.java)에 있는 지역무명클래스
+ 객체변수 f를 생성함.
+
+    (테스트 프로그램 실행결과)  지문과 동일하게 다음 내용이 출력되어야 함
+
+        속도
+        높이
