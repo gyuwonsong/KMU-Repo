@@ -1,0 +1,68 @@
+
+========
+(실습7) 준비
+========
+
+ 실습파일(lab7.zip) 안에 있는 프로젝트 폴더(lab7)를 이클립스로 임포트한다.
+    <File> -> <Import> -> <General> -> <Existing Projects into Workspace> -> <Next>버튼클릭
+      -> <Select root directory>선택 -> <Browse>클릭하여 프로젝트폴더(lab7) 선택 -> <Finish>클릭
+
+
+
+========================
+(실습7-1)  ShapeTest.java 프로그램 완성
+========================
+
+ shape.test 패키지 안의 테스트 파일(ShapeTest.java)의 3개 메소드의 내용을 완성하여, 아래 시나리오와 같이
+ Vector 리스트에서 3가지 도형객체를 임의의 순서로 생성/추가, 삭제 및 전체도형출력 기능을 실행하도록 구현함.
+ 
+
+    (테스트 시나리오)  평가시 다음 순서로 진행할 수 있도록 구현할 것
+
+      Run the graphic editor <GE-v.1> ...
+      insert(1), remove(2), show all members(3), finish(4)>> 1
+      Line(1), Rect(2), Circle(3)>> 2
+      insert(1), remove(2), show all members(3), finish(4)>> 1
+      Line(1), Rect(2), Circle(3)>> 3
+      insert(1), remove(2), show all members(3), finish(4)>> 1
+      Line(1), Rect(2), Circle(3)>> 4
+      wrong graphic type!
+      insert(1), remove(2), show all members(3), finish(4)>> 5
+      wrong request!
+      insert(1), remove(2), show all members(3), finish(4)>> 1
+      Line(1), Rect(2), Circle(3)>> 1
+      insert(1), remove(2), show all members(3), finish(4)>> 3
+      Rect
+      Circle
+      Line
+      insert(1), remove(2), show all members(3), finish(4)>> 2
+      index location of the Shape to be removed >> 3
+      cannot remove it!
+      insert(1), remove(2), show all members(3), finish(4)>> 2
+      index location of the Shape to be removed >> 1
+      insert(1), remove(2), show all members(3), finish(4)>> 3
+      Rect
+      Line   
+      insert(1), remove(2), show all members(3), finish(4)>> 4
+      finish the graphic editor <GE-v.1>
+
+
+
+
+========================
+(실습7-2)  DicTest.java 프로그램 완성
+========================
+
+ 실습지문파일(dictionary1.jpg, dictionary2.jpg, dictionary3.jpg)에 있는 3개 문항의 요구사항들을 
+ dictionary 패키지 안의 테스트 파일(DicTest.java)에 구현함.
+
+
+
+=========================
+(실습7-3)  ScoreTest.java 프로그램 완성
+=========================
+
+ 실습지문파일(score1.jpg, score2.jpg, score3.jpg, score4.jpg)에 있는 3개 문항의 요구사항들을 
+ score.course 패키지 안의 영어, 수학 성적파일(EnglishScore.java, MathScore.java)과
+ score.test 패키지 안의 테스트 파일(ScoreTest.java)에 구현함.
+
